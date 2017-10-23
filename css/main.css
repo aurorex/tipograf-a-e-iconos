@@ -1,23 +1,41 @@
 div{
-display: inline-block;
-height: 50px;
-text-align: center;
+
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.content{
+
+  display: inline-block;
 }
 
 span{
+
   font-size: 55px;
 
 
 }
 
 p{
+  display: block;
   padding-left:5px ;
   padding-right:5px ;
-  font-size: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
+  width:150Px;
+  height: 30px;
+
 
 }
 
-.contenedor{
-  padding-top: 20px;
+
+.title{
+font-size: 20px;
+font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+.subtitle{
+  outline: skyblue;
+  font-size: 15px;
 }
